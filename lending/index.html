@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="body">
+        <section id="header">
+            <div class="logo">
+                <a href="index.html">Сравниавто.рф</a>
+            </div>
+            <div class="nav">
+                <a href="anceta.html">Заполнить анкету</a>
+                <a href="">Как это работает</a>
+                <a href="">Остались вопросы?</a>
+            </div>
+        </section>
+
+        <section id="fill">
+            <div class="fillanceta">
+                <h1 class="title">Заполните анкету и получите <span>лучшие предложения от дилеров со скидками и финальными ценами</span></h1>
+                <div class="btn1"><a href="anceta.html">Заполнить анкету</a> </div> 
+                <div class="economtime">
+                    <div class="time">
+                        <img src="images/mingcute_time-fill.svg" alt="img">
+                        <p>Экономьте время</p>
+                    </div>
+                    <div class="time">
+                        <img src="images/solar_sale-bold.svg" alt="img">
+                        <p>Получайте скидки</p>
+                    </div>
+                    <div class="time">
+                        <img src="images/uil_comparison.svg" alt="img">
+                        <p>Сравнивайте предложения</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="timeimg">
+                <img src="images/photo_2024-01-22_14-58-43 1.png" alt="img">
+            </div>
+
+        </section>
+
+        <section id="fillgraph">
+            <h2>Заполните анкету</h2>
+            <p>И мы подберём подходящий вариант по вашим параметрам</p>
+            <div class="graph">
+                <div class="graphform">
+                    <form>
+                        <div class="selects">
+                            <select id="mySelect1">
+                                <div class="option">
+                                    <option value="option1">Легковой</option>
+                                    <option value="option2">Легко-коммерческий</option>
+                                    <option value="option3">Грузовой</option>
+                                    <option value="option4">Спецтехника</option>
+                                </div>
+                            </select>
+                            <select id="mySelect2">
+                                <option value="option1">Марка</option>
+                                <option value="option2">Марка</option>
+                                <option value="option3">Марка</option>
+                                <option value="option4">Марка</option>
+                                <option value="option5">Марка</option>
+                            </select>
+                            <select id="mySelect3">
+                                <option value="option1">Модель</option>
+                                <option value="option2">Модель</option>
+                                <option value="option3">Модель</option>
+                                <option value="option4">Модель</option>
+                                <option value="option5">Модель</option>
+                            </select>
+                            <select id="mySelect4">
+                                <option value="option1">Москва</option>
+                                <option value="option2">Сочи</option>
+                                <option value="option3">Краснодар</option>
+                                <option value="option4">Санкт-Петербург</option>
+                                <option value="option5">Самара</option>
+                            </select>
+                        </div>
+                        
+                        <div class="textarea">
+                            <textarea placeholder="Комментарий: (Комплектация, цвет, бюджет)" id="myTextarea" rows="4" cols="50"></textarea>
+                        </div>
+                        
+                
+                
+                        <input class="submit" type="submit" value="Отправить заявку">
+                    </form>
+             
+                </div>
+                <p class="conditions">Отправляя заявку, я соглашаюсь с условиями <span>обработки персональных данных</span></p>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2>Как это работает</h2>
+            <div class="features">
+                <div class="featuresitem">
+                    <div class="num">01</div>
+                    <div class="innerfeature">
+                        <img class="featuresimg" src="images/lets-icons_send-duotone.svg" alt="">
+                        <p class="featurestxt">Вы отправляете одну заявку на нашу платформу</p>
+                    </div>
+                    
+                </div>
+                <div class="featuresitem">
+                    <div class="num">02</div>
+                    <div class="innerfeature">
+                        <img class="featuresimg" src="images/material-symbols_support-agent.svg" alt="">
+                        <p class="featurestxt">Заявка отправляется всем дилерам, кто занимается выбранной маркой</p>
+                    </div>    
+                </div>
+                <div class="featuresitem">
+                    <div class="num">03</div>
+                    <div class="innerfeature">
+                        <img class="featuresimg" src="images/simple-line-icons_check.svg" alt="">
+                        <p class="featurestxt">Вы получаете лучшее предложение</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="questions">
+            <h2>Остались вопросы - <span>спрашивайте!</span></h2>
+            <div class="questionsform">
+                <p class="questionp1">Отправьте заявку и мы свяжемся с вами в ближайшее время</p>
+                <form  action="/submit" method="post">
+                    <input class="questioninput" placeholder="Как вас зовут?" type="text" id="name" name="name" required>
+                    <div class=" telmain">
+                        <input class="questioninput "  type="tel" id="telephone" name="telephone" required>
+                    <div class="tel"><p class="tel1">Номер телефона</p> <p class="tel2">+7 (900) 111-11-11</p></div>
+                    </div>
+                    <input class="questioninput1" type="submit" value="Отправить заявку">
+                </form>
+                <p class="questionp2">Отправляя заявку, я соглашаюсь с условиями</p> <p class="questionp3">обработки персональных данных</p>
+            </div>
+            
+        </section>
+
+    </div>
+
+    <section id="futer">
+        <div class="futerlogo">Сравниавто.рф</div>
+        <div class="copyright">Copyright 2024 <br>Все права защищены</div>
+        <div class="copyright">Политика конфиденциальности</div>
+    </section>
+</body>
+</html>
