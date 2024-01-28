@@ -52,35 +52,65 @@
                 <div class="graphform">
                     <form>
                         <div class="selects">
-                            <select id="mySelect1">
-                                <div class="option">
-                                    <option value="option1">Легковой</option>
-                                    <option value="option2">Легко-коммерческий</option>
-                                    <option value="option3">Грузовой</option>
-                                    <option value="option4">Спецтехника</option>
+                            <div class="center">
+                               <input  type="text" name="tip"  class="dropdown-imput" value="Тип техники" > 
+                               <ul class="dropdown-list">
+                                    <li class="dropdown-list-item" data-value="Легковой">Легковой</li>
+                                    <li class="dropdown-list-item" data-value="Легко-коммерческий">Легко-коммерческий</li>
+                                    <li class="dropdown-list-item" data-value="Грузовой">Грузовой</li>
+                                    <li class="dropdown-list-item" data-value="Спецтехника">Спецтехника</li>
+                               </ul>  
+                               
+                                                               
+                                <div class="icon-container">
+                                    <img src="images/Expand_right.svg" alt="icon">
                                 </div>
-                            </select>
-                            <select id="mySelect2">
-                                <option value="option1">Марка</option>
-                                <option value="option2">Марка</option>
-                                <option value="option3">Марка</option>
-                                <option value="option4">Марка</option>
-                                <option value="option5">Марка</option>
-                            </select>
-                            <select id="mySelect3">
-                                <option value="option1">Модель</option>
-                                <option value="option2">Модель</option>
-                                <option value="option3">Модель</option>
-                                <option value="option4">Модель</option>
-                                <option value="option5">Модель</option>
-                            </select>
-                            <select id="mySelect4">
-                                <option value="option1">Москва</option>
-                                <option value="option2">Сочи</option>
-                                <option value="option3">Краснодар</option>
-                                <option value="option4">Санкт-Петербург</option>
-                                <option value="option5">Самара</option>
-                            </select>
+                            </div>
+                            <div class="center">
+                                <input type="text" name="marka" class="dropdown-imput" value="Марка" > 
+                                <ul class="dropdown-list">
+                                     <li class="dropdown-list-item" data-value="Марка">Марка</li>
+                                     <li class="dropdown-list-item" data-value="Марка">Марка</li>
+                                     <li class="dropdown-list-item" data-value="Марка">Марка</li>
+                                     <li class="dropdown-list-item" data-value="Марка">Марка</li>
+                                </ul>  
+                                
+                                                                
+                                 <div class="icon-container">
+                                     <img src="images/Expand_right.svg" alt="icon">
+                                 </div>
+                             </div>
+                             <div class="center">
+                                <input  type="text" name="model"  class="dropdown-imput" value="Модель" > 
+                                <ul class="dropdown-list">
+                                     <li class="dropdown-list-item" data-value="Модель">Модель</li>
+                                     <li class="dropdown-list-item" data-value="Модель">Модель</li>
+                                     <li class="dropdown-list-item" data-value="Модель">Модель</li>
+                                     <li class="dropdown-list-item" data-value="Модель">Модель</li>
+                                </ul>  
+                                
+                                                                
+                                 <div class="icon-container">
+                                     <img src="images/Expand_right.svg" alt="icon">
+                                 </div>
+                             </div>
+                             <div class="center">
+                                <input  type="text" name="moskva"  class="dropdown-imput" value="Москва" > 
+                                <ul class="dropdown-list">
+                                     <li class="dropdown-list-item" data-value="Москва">Москва</li>
+                                     <li class="dropdown-list-item" data-value="Москва">Москва</li>
+                                     <li class="dropdown-list-item" data-value="Москва">Москва</li>
+                                     <li class="dropdown-list-item" data-value="Москва">Москва</li>
+                                </ul>  
+                                
+                                                                
+                                 <div class="icon-container">
+                                     <img src="images/Expand_right.svg" alt="icon">
+                                 </div>
+                             </div>
+                            
+                            
+                            
                         </div>
                         
                         <div class="textarea">
@@ -134,7 +164,7 @@
                     <input class="questioninput" placeholder="Как вас зовут?" type="text" id="name" name="name" required>
                     <div class=" telmain">
                         <input class="questioninput "  type="tel" id="telephone" name="telephone" required>
-                    <div class="tel"><p class="tel1">Номер телефона</p> <p class="tel2">+7 (900) 111-11-11</p></div>
+                    <div  class="tel" id="hide"><p class="tel1">Номер телефона</p> <p class="tel2">+7 (900) 111-11-11</p></div>
                     </div>
                     <input class="questioninput1" type="submit" value="Отправить заявку">
                 </form>
@@ -150,5 +180,7 @@
         <div class="copyright">Copyright 2024 <br>Все права защищены</div>
         <div class="copyright">Политика конфиденциальности</div>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
