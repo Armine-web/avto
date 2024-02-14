@@ -636,4 +636,73 @@ input{
 }
 
 
+@media(max-width: 650px){
+    #header{
+        align-items: flex-start;
+    }
+    .nav{
+        margin-top: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .nav a{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 31px;
+    }
+    .economtime {
+        margin-top: 0px; 
+        float: none;
+    }
+    .btn1{
+        width: 100%;
+    }
+    .dropdown-imput {
+    width: 84%;
+    }
+    .submit {
+    width: 100%;
+    }
+    .featuresitem {
+        width: 100%;
+        height: auto;
+    }
+    .features{
+        margin-left: 40px;
+    }
+    .questionsform{
+        width: 100%;
+    }
+    .questioninput{
+        width: 94%;
+    }
+    .questioninput1{
+        width: 100%;
+    }
+    .telmain{
+        width: 100%;
+    }
+    .questionsform{
+        width: 94%;
+    }
+    .featuresitem:nth-child(2) p{
+        width: auto;
+    }
+    #futer{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+@media(max-width: 436PX){
+    .icon-container{
+        right: 0;
+    }
+
+    
+}
+
+
 
